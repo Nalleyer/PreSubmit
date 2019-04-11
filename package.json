@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "parsimmon": "^1.12.0",
     "vue": "^2.6.6",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^8.0.0",

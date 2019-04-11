@@ -6134,6 +6134,11 @@ parseurl@~1.3.2:
   resolved "http://mirrors.cloud.tencent.com/npm/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
   integrity sha1-/CidTtiZMRlGDBViUyYs3I3mW/M=
 
+parsimmon@^1.12.0:
+  version "1.12.0"
+  resolved "http://mirrors.cloud.tencent.com/npm/parsimmon/-/parsimmon-1.12.0.tgz#886a442fb30b5fc3c8e7c4994050f5cdcfe0ea90"
+  integrity sha512-uC/BjuSfb4jfaWajKCp1mVncXXq+V1twbcYChbTxN3GM7fn+8XoHwUdvUz+PTaFtDSCRQxU8+Rnh+iMhAkVwdw==
+
 pascalcase@^0.1.1:
   version "0.1.1"
   resolved "http://mirrors.cloud.tencent.com/npm/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"

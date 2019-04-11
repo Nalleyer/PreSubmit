@@ -12,6 +12,10 @@ const state: interfaces.AppState = {
     p4State: {
         isReady: false,
     },
+    p4Info: {
+        userName: '',
+        clientRoot: '',
+    },
 }
 
 export default new Vuex.Store({

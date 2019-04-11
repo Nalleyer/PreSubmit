@@ -732,6 +732,11 @@
   resolved "http://mirrors.cloud.tencent.com/npm/@types%2fnode/-/node-10.14.4.tgz#1c586b991457cbb58fef51bc4e0cfcfa347714b5"
   integrity sha512-DT25xX/YgyPKiHFOpNuANIQIVvYEwCWXgK2jYYwqgaMrYE6+tq+DtmMwlD3drl6DJbUwtlIDnn0d7tIn/EbXBg==
 
+"@types/parsimmon@^1.10.0":
+  version "1.10.0"
+  resolved "http://mirrors.cloud.tencent.com/npm/@types%2fparsimmon/-/parsimmon-1.10.0.tgz#ffb81cb023ff435a41d4710a29ab23c561dc9fdf"
+  integrity sha512-bsTIJFVQv7jnvNiC42ld2pQW2KRI+pAG243L+iATvqzy3X6+NH1obz2itRKDZZ8VVhN3wjwYax/VBGCcXzgTqQ==
+
 "@types/q@^1.5.1":
   version "1.5.2"
   resolved "http://mirrors.cloud.tencent.com/npm/@types%2fq/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
@@ -6133,6 +6138,11 @@ parseurl@~1.3.2:
   version "1.3.2"
   resolved "http://mirrors.cloud.tencent.com/npm/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
   integrity sha1-/CidTtiZMRlGDBViUyYs3I3mW/M=
+
+parsimmon@^1.12.0:
+  version "1.12.0"
+  resolved "http://mirrors.cloud.tencent.com/npm/parsimmon/-/parsimmon-1.12.0.tgz#886a442fb30b5fc3c8e7c4994050f5cdcfe0ea90"
+  integrity sha512-uC/BjuSfb4jfaWajKCp1mVncXXq+V1twbcYChbTxN3GM7fn+8XoHwUdvUz+PTaFtDSCRQxU8+Rnh+iMhAkVwdw==
 
 pascalcase@^0.1.1:
   version "0.1.1"

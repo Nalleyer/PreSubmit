@@ -55,14 +55,6 @@ function p4cmdSync(cmd: string) {
   }
 }
 
-/* example
-p4cmd('changes -u qiliuliu -m 5').then(function(result) {
-  console.log(result)
-}, function(err) {
-  console.log(err)
-})
-*/
-
 export {
   p4cmd,
   p4cmdSync,

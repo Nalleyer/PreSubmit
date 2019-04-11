@@ -3,7 +3,10 @@ import {
   spawnSync,
 } from 'child_process'
 
-import * as interfaces from '@/interface'
+interface CommandResult {
+    stdout: string,
+    stderr: string,
+}
 
 const defaultOption = ['-Q', 'utf8']
 const p4CommandStr = 'p4'
@@ -22,7 +25,7 @@ function p4cmd(cmd: string) {
       reject(err)
     })
 
-    const result: interfaces.CommandResult = {
+    const result: CommandResult = {
         stdout: '',
         stderr: '',
     }

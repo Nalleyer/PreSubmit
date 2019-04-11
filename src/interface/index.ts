@@ -1,8 +1,3 @@
-export interface CommandResult {
-    stdout: string,
-    stderr: string,
-}
-
 export interface AppState {
     p4State: P4State,
     p4Info: P4Info,

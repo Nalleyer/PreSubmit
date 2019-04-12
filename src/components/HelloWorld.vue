@@ -9,6 +9,7 @@
 import Vue from 'vue'
 import Component from 'vue-class-component'
 import {P4} from '@/p4'
+import {P4Info} from '@/interface'
 
 @Component({})
 class HelloWorld extends Vue {
@@ -20,7 +21,8 @@ class HelloWorld extends Vue {
 
   public debug(): void {
     const p4 = new P4()
-    this.text = JSON.stringify(p4.getInfo())
+    const info = p4.getInfo() as P4Info
+    this.text = JSON.stringify(p4.getChanges(info))
   }
 }
 

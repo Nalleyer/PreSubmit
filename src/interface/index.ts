@@ -13,11 +13,21 @@ export interface P4State {
     isReady: boolean,
 }
 
-export interface Changes {
-    [propName: number]: Change,
+export type P4Changes = P4Change[]
+
+export interface P4Change {
+    id: number,
+    description: string,
+    date?: Date,
+    files: File[],
 }
 
-export interface Change {
+export interface File {
+    name: string,
+    fullPath: string, // NOTE: use '/' for separator
+}
+
+export interface Plugin {
     name: string,
     commandTemplate: string,
 }

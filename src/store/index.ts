@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import * as interfaces from '@/interface'
+import * as interfaces from '@/interface/app'
 
 import mutations from './mutations'
 import actions from './actions'

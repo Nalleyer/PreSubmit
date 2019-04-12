@@ -3,6 +3,8 @@ import {
   spawnSync,
 } from 'child_process'
 
+import {Maybe} from '@/interface/maybe'
+
 interface CommandResult {
     stdout: string,
     stderr: string,
@@ -56,6 +58,15 @@ function p4cmdSync(cmd: string) {
       stderr: syncResult.stderr.toString(),
     }
   }
+}
+
+export function maybeP4CmdSync(cmd: string): Maybe<string> {
+    const result = p4cmdSync(cmd)
+    if (result && result.stdout) {
+        return Maybe.Just(result.stdout)
+    } else {
+        return Maybe.Nothing()
+    }
 }
 
 export {

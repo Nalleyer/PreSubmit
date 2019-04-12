@@ -1,4 +1,4 @@
-import {AppState, P4Info} from '@/interface'
+import {AppState, P4Info} from '@/interface/app'
 
 export default {
     updateP4Info(state: AppState, p4Info: P4Info) {

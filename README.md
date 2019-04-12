@@ -1,29 +1,35 @@
-# presubmit-ts
+# PreSubmit
 
-## Project setup
-```
-yarn install
-```
+PreSubmit is a GUI tool for checking your files before submitting them to perforce, built on Electron + Vue + Vuetify.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+There is no checking logic hard coded in PreSubmit. All feature can be added with its plugin system.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+**WARNING**: PreSubmit is Working in porgress...
 
-### Run your tests
-```
-yarn run test
-```
+## TODO
 
-### Lints and fixes files
-```
-yarn run lint
-```
+- [x] base achietecture
+- [ ] p4 apis
+    - [x] info
+    - [x] changes
+    - [ ] files
+- [ ] display
+    - [ ] changelist
+    - [ ] files
+    - [ ] check result
+    - [ ] menu
+- [ ] plugin system
+    - [ ] config format
+    - [ ] launcher
+    - [ ] result parser
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+# Usage
+
+1. make sure `p4` is in your path.
+2. just open PreSubmit and enjoy.
+
+# Plugin
+
+*TODO*

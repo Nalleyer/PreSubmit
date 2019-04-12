@@ -8,9 +8,8 @@
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
-import {
-  p4cmdSync,
-} from '@/p4'
+import {P4} from '@/p4'
+import {P4Info} from '@/interface/app'
 
 @Component({})
 class HelloWorld extends Vue {
@@ -21,12 +20,9 @@ class HelloWorld extends Vue {
   }
 
   public debug(): void {
-    const info = p4cmdSync('info')
-    if (info) {
-      this.text = info.stdout
-    } else {
-      this.text = 'p4 is not found'
-    }
+    const p4 = new P4()
+    const info = p4.getInfo().unwrap()
+    this.text = JSON.stringify(p4.getChanges(info).unwrap())
   }
 }
 
